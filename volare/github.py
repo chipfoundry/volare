@@ -75,6 +75,8 @@ class GitHubSession(httpx.Client):
                     ],
                     encoding="utf8",
                 ).strip()
+            except NotADirectoryError:
+                pass
             except FileNotFoundError:
                 pass
             except subprocess.CalledProcessError:
