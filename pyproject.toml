@@ -19,7 +19,7 @@ classifiers = [
 python = ">=3.8"
 click = ">=8,<9"
 pyyaml = ">=5,<7"
-rich = ">=12,<14"
+rich = ">=12,<15"
 httpx = ">=0.22.0,<0.29"
 pcpp = ">=1.2,<2"
 zstandard = ">=0.19.0,<1"
